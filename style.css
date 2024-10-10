@@ -6,17 +6,6 @@ body{
     background-color: #262626;
 }
 
-header {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-}
-
-img.logo {
-    max-width: 100%;
-    height: auto;
-}
-
 .navbar{
     color: rgb(255, 255, 255);
 }
