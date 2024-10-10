@@ -6,6 +6,10 @@ body{
     background-color: #262626;
 }
 
+header img{
+    size: 20px;
+}
+
 .navbar{
     color: rgb(255, 255, 255);
 }
