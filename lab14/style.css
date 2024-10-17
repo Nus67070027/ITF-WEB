@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2016/06/download-free-studio-ghibli-wallpapers-miyazaki-anime-57611652f01be.jpg");
+    background-image: url("https://i.ibb.co/TRKWgGF/dow.jpg");
     background-size:cover;
     background-repeat: no-repeat ;
 }
@@ -23,8 +23,9 @@ input {
 button {
     border: 0;
     color: white;
-    background-color: rgb(71, 71, 255);
-    padding: 4px 16px;
+    background-color: #00adef;
+    padding: 6px 16px;
+    width: 70px;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -44,25 +45,39 @@ button {
     border-radius: 360px;
 }
 
+.my-profile .Fame img{
+    width: 180px;
+    height: 116.4px;
+    border-radius: 360px;
+    position: relative;
+    top: -150px;
+    left: 66px;
+}
+
 .my-profile .noti {
     background-color: red;
     width: 24px;
     height: 24px;
     border-radius: 360px;
     position: relative;
-    top: -36px;
+    top: -150px;
     left: 56px;
     color: white;
     font-size: small;
-    font-family: 'Ghibli', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .my-panel {
     margin-top: -16px;
+    color: beige;
 }
 
 .my-panel * {
     margin: 4px 8px;
+}
+
+.my-panel .my-grid *:not(text){
+    padding: 7px;
 }
 
 .my-phone {
@@ -70,10 +85,15 @@ button {
 }
 
 .my-phone .contact {
-    margin-top: 12px;
+    margin-top: 12px;    
     width: 86%;
     display: grid;
-    grid-template-columns: 40% 40% 10% 10%;
+    justify-content: center;
+    grid-template-columns: 40% 40% 95px 10%;
+}
+
+.my-phone .contact *:not(text){
+    padding: 7px;
 }
 
 .my-phone .contact *:not(button) {
@@ -104,14 +124,15 @@ button {
 }
 
 .my-phone .datalist .first-tr {
-    background-color: rgb(206, 206, 206);
+    background-color: #bdcf8a ;
     border-bottom: 1px solid black;
 }
 
 .my-phone .datalist th {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #5a7b1d;
 }
 
 .my-phone .datalist td {
     border-bottom: 1px solid rgb(206, 206, 206);
+    color: beige;
 }

@@ -24,7 +24,7 @@ function addContact() {
 
 function setuserName() {
     let myTitle = document.getElementById("my-title")
-    myTitle.innerText = document.getElementById("userName").value + "'s Phone Book"
+    myTitle.innerText = document.getElementById("userName").value + ""
 }
 
 function setProfile() {
